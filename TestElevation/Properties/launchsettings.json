@@ -1,0 +1,10 @@
+﻿{
+    "profiles": {
+      "TestElevation (Package)": {
+        "commandName": "MsixPackage"
+      },
+      "TestElevation (Unpackaged)": {
+        "commandName": "Project"
+      }
+    }
+}
