@@ -11,15 +11,15 @@
   IgnorableNamespaces="uap rescap genTemplate">
 
   <Identity
-    Name="35e3e71f-d049-4481-a385-f28f0f87e41d"
-    Publisher="CN=shinta"
-    Version="1.0.0.0" />
+    Name="22724SHINTA.TestElevation"
+    Publisher="CN=C3D46685-F0CB-48EC-96C4-8660C676A069"
+    Version="1.0.2.0" />
     
-  <mp:PhoneIdentity PhoneProductId="35e3e71f-d049-4481-a385-f28f0f87e41d" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="8dcbb850-edba-4611-92f2-a79362018cad" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
     
   <Properties>
     <DisplayName>TestElevation</DisplayName>
-    <PublisherDisplayName>shinta</PublisherDisplayName>
+    <PublisherDisplayName>SHINTA</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 
@@ -42,7 +42,7 @@
         BackgroundColor="transparent"
         Square150x150Logo="Assets\Square150x150Logo.png"
         Square44x44Logo="Assets\Square44x44Logo.png">
-        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" />
+        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png"  Square71x71Logo="Assets\SmallTile.png" Square310x310Logo="Assets\LargeTile.png"/>
         <uap:SplashScreen Image="Assets\SplashScreen.png" />
       </uap:VisualElements>
       <Extensions>
